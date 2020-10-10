@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(11, 194, 4);
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+main {
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.8rem 0 1.68rem 0;
+}
+
+h2 {
+    font-size: 1.6rem;;
+}
+
+.display-flex {
+    display: flex;
+    margin: 20px 5px;
+}
+
+.display-flex .button {
+    margin: 10px;
+    margin-top: 2px;
+    padding: 5px;
+    background-color: darkgreen;
+    color: white;
+    border: black solid 1px;
+    font-weight: bold;
+}
+
+.button disabled {
+    background: gray;
+    color: black;
+}
+
+/* .user-counter {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+} */
+
+.lista-flex{
+    width: 50%;
+    padding-left: 1%;
+}
+
+.users {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+/* .user-thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    margin-right: 10px;
+} 
+
+.card {
+    padding: 10px;
+    border: 1px solid #ccc;
+} */
+
+.statistics {
+    list-style: none;
+}
+.statistics li {
+    margin: 10px 0;
+}
